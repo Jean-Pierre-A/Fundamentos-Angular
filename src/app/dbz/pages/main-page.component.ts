@@ -25,5 +25,10 @@ export class MainPageComponent {
     },
 ];
 
+onNewCharacter(character: Character):void
+{
+  console.log('MainPage');
+  console.log(character)
+}
 
 }
